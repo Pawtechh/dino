@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Dinosaurio</title>
+    <link rel="stylesheet" href="dino.css ">
+</head>
+<body>
+
+    
+    <script>
+        document.addEventListener('keydown', function(event) {
+            if (event.code === 'Space') {
+            }
+        });
+    </script>
+
+
+
+    <div class="game-container">
+        <div id="dino" class="dino"></div>
+        <div id="cactus" class="cactus"></div>
+    </div>
+    <div class="game-container">
+        <div id="dino"></div>
+        <div id="score">Score: 0</div> <!-- pantalla de puntuacion -->
+    </div>
+    <button id="changeDinoButton">Cambiar Dino</button>
+    <script src="dino.js"></script>
+</body>
+</html>
